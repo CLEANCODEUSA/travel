@@ -3,7 +3,9 @@ import './navbar.scss'
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
+    <section className='navBarSection'>
+
+    </section>
   )
 }
 
