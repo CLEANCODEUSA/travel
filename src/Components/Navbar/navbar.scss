@@ -1,0 +1,30 @@
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+}
+
+.logo {
+  color: black;
+}
+
+@media screen and (max-width: 768px) {
+  .navBar {
+    position: absolute;
+    background: whitesmoke;
+    height: max-content;
+    width: 80%;
+    border-radius: 1rem;
+    top: 6rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2000;
+    box-shadow: 0 2px 4px rgba(2, 15, 29, 0.904);
+    transition: 0.3s ease-in-out;
+  }
+}
