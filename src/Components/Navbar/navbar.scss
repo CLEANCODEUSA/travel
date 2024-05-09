@@ -28,3 +28,18 @@
     transition: 0.3s ease-in-out;
   }
 }
+
+.header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: whitesmoke;
+  width: 100%;
+  padding: 1rem;
+  z-index: 1000;
+
+  .logo {
+    color: black;
+  }
+}
