@@ -15,6 +15,9 @@ const Home = () => {
             Search your Holiday
           </h1>
         </div>
+        <div className="input flex">
+          <input type="date" />
+        </div>
       </div>
     </section>
   )
